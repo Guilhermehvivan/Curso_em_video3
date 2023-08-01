@@ -1,0 +1,13 @@
+Brasileirao = ('Fla', 'Santos', 'Porco', 'Gremio', 'Athletico', 'São Paulo', 'Inter', 'Corinthians', 'Fortaleza', 'Goias',
+               'Bahia', 'Vasco', 'Atlético MG', 'Flu', 'Botafogo', 'Ceara', 'Cruzeiro', 'CSA', 'Chape', 'Avaí')
+print('   TABELA BRASILEIRÃO')
+print('-'*30)
+print(Brasileirao)
+print('-'*30)
+print('Os 5 primeiros são {}'.format(Brasileirao[:5]))
+print('-'*30)
+print('Os 4 últimos são {}'.format(Brasileirao[16:]))
+print('-'*30)
+print('A tabela em ordem alfabética: {}'.format(sorted(Brasileirao)))
+print('-'*30)
+print('A Chapecoense está na posição {}'.format(Brasileirao.index('Chape')+1))
